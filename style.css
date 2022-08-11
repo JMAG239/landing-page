@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 200px;
+    padding: 8px 180px;
   }
 
   .header_logo {
@@ -32,4 +32,46 @@ body {
     color: #E7E5EB;
     text-decoration: none;
     font-size: 18px;
+  }
+
+  .content_first_block {
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 180px;
+  }
+
+  .content_title {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 48px;
+    width: 350px;
+  }
+
+  .content_subtext {
+    color: #E7E5EB;
+    font-size: 18px;
+    width: 450px;
+  }
+
+  button {
+    color: #E7E5EB;
+    background-color: rgb(59, 114, 233);
+    border-radius: 8px;
+    border: none;
+	outline: none;
+    font-weight: bold;
+    margin: 16px 0;
+    padding: 8px 32px;
+    font-size: 18px;
+  }
+
+  .image_placeholder {
+    color: #E7E5EB;
+    font-size: 18px;
+    background-color: rgb(140, 153, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
   }
