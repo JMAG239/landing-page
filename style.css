@@ -39,6 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 80px 180px;
+    padding-bottom: 130px;
   }
 
   .content_title {
@@ -56,10 +57,10 @@ body {
 
   button {
     color: #E7E5EB;
-    background-color: rgb(59, 114, 233);
+    background-color: #3882F6;
     border-radius: 8px;
     border: none;
-	outline: none;
+	  outline: none;
     font-weight: bold;
     margin: 16px 0;
     padding: 8px 32px;
@@ -74,4 +75,34 @@ body {
     align-items: center;
     justify-content: center;
     width: 500px;
+  }
+
+  .info_title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    padding: 50px;
+  }
+
+  .content_second_block {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 100px;
+  }
+
+  .info_pic {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+  }
+
+  .info_text {
+    width: 150px;
+    text-align: center;
+    color:#1F2937;
+    padding-top: 8px;
   }
